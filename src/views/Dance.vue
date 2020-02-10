@@ -1,11 +1,11 @@
 <template>
-  <div class="theatre">Theatre</div>
+  <div class="dance">Dance</div>
 </template>
 
 
 <script>
 export default {
-  name: "theatre",
+  name: "dance",
   data() {
     return {};
   },
