@@ -1,8 +1,13 @@
 <template>
   <div id="app row">
-    <div class="col-12 text-right" id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
+    <div class="col text-right" id="nav">
+      <router-link to="/">Home &nbsp;</router-link>|
+      <router-link to="/theatre">Theatre &nbsp;</router-link>|
+      <router-link to="/gymnastics">Gymnastics &nbsp;</router-link>|
+      <router-link to="/music">Music &nbsp;</router-link>|
+      <router-link to="/dance">Dance &nbsp;</router-link>|
+      <router-link to="/staff">Our Staff&nbsp;</router-link>|
+      <router-link to="/about">About&nbsp;</router-link>
     </div>
     <router-view />
   </div>
@@ -23,11 +28,11 @@
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: grey;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: hotpink;
 }
 
 .logoSize {
