@@ -1,5 +1,7 @@
 <template>
-  <div class="gymnastics">Nastics</div>
+  <div class="gymnastics container-fluid">
+    <div class="row">Dance</div>
+  </div>
 </template>
 
 
@@ -17,4 +19,8 @@ export default {
 
 
 <style scoped>
+.gymnastics {
+  background-color: darkkhaki;
+  height: 90vh;
+}
 </style>

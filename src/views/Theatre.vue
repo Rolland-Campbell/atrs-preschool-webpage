@@ -1,5 +1,7 @@
 <template>
-  <div class="theatre">Theatre</div>
+  <div class="theatre container-fluid">
+    <div class="row">Theatre</div>
+  </div>
 </template>
 
 
@@ -17,4 +19,8 @@ export default {
 
 
 <style scoped>
+.theatre {
+  background-color: lightgreen;
+  height: 90vh;
+}
 </style>

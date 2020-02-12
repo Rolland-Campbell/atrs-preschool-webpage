@@ -1,5 +1,7 @@
 <template>
-  <div class="music">Music</div>
+  <div class="music container-fluid">
+    <div class="row">Music</div>
+  </div>
 </template>
 
 
@@ -17,4 +19,8 @@ export default {
 
 
 <style scoped>
+.music {
+  background-color: violet;
+  height: 90vh;
+}
 </style>
