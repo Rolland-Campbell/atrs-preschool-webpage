@@ -10,17 +10,18 @@
       </div>
       <div class="col-md-5 titleText">
         <h1>
-          <span class="char1">L</span>
+          <span class="char1 hopleft">L</span>
           <span class="char2">E</span>
           <span class="char3">T</span>
           <span class="char4">'</span>
           <span class="char5">S</span>
           &nbsp;
-          <span class="char6">D</span>
+          <span class="char6 hopup">D</span>
           <span class="char7">A</span>
           <span class="char8">N</span>
           <span class="char9">C</span>
           <span class="char10">E</span>
+          &nbsp;
           <span class="wiggle1">!!</span>
         </h1>
       </div>
@@ -32,8 +33,11 @@
         />
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-8 offset-md-2"></div>
+    <div class="row textRow">
+      <div class="col-md-6 offset-md-3 danceText">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi tempora quibusdam corporis veniam sint, vel blanditiis voluptas dolores eius voluptatem reprehenderit dolor architecto tenetur corrupti temporibus totam exercitationem nam et! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo recusandae eos, fugit voluptatem dignissimos iusto in similique veniam perferendis nobis nihil inventore optio autem numquam. Repellendus placeat eveniet ipsa a.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere illum recusandae, enim sint voluptatum quam vel beatae quaerat consequatur culpa quia dolore. Beatae sequi sunt fuga obcaecati nostrum delectus laboriosam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi necessitatibus quas nemo, nobis, itaque quae laboriosam nihil facilis culpa inventore a aperiam maiores eum illo, quibusdam repellat natus libero. Ipsam.</p>
+      </div>
     </div>
   </div>
 </template>
@@ -70,6 +74,24 @@ export default {
   position: relative;
   top: 5vh;
   transform: rotate(-30deg);
+}
+
+.danceText {
+  padding: 25px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  background-color: rgba(255, 255, 255, 0.253);
+  border-radius: 20px;
+}
+
+.textRow {
+  height: 60vh;
+}
+
+span {
+  font-size: 8vh;
+  font-weight: bold;
 }
 
 .danceImg2 {
@@ -122,10 +144,7 @@ export default {
 }
 
 .titleText {
-  color: white;
   text-shadow: 1px 1px black;
-  text-align: center;
-  font-size: 6vh;
   padding-top: 5vh;
   display: flex;
   justify-content: center;
@@ -134,7 +153,7 @@ export default {
   font-weight: bold;
 }
 
-@keyframes wiggle {
+@keyframes wiggle1 {
   from {
     color: orange;
     text-shadow: 1px 1px purple;
@@ -161,6 +180,40 @@ export default {
 }
 span.wiggle1 {
   display: inline-block;
-  animation: wiggle 2s infinite;
+  animation: wiggle1 2s infinite;
+}
+
+@keyframes hopup {
+  0% {
+    transform: translateY(-1vh);
+  }
+}
+
+span.hopup {
+  display: inline-block;
+  animation: hopup 3s infinite;
+}
+
+@keyframes hopleft {
+  0% {
+    transform: translateX(-1vw);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  85% {
+    transform: rotate(10deg);
+  }
+  95% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+span.hopleft {
+  display: inline-block;
+  animation: hopleft 4s infinite;
 }
 </style>
