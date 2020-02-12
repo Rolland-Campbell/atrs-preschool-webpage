@@ -1,13 +1,13 @@
 <template>
   <div class="theatre container-fluid">
     <div class="row headerRow">
-      <col-3>
+      <div class="col-3">
         <img src="../assets/masks.png" class="maskPicL" />
-      </col-3>
-      <div class="col-6 headerText">THEATRE</div>
-      <col-3>
+      </div>
+      <div class="col-md-6 headerText">THEATRE</div>
+      <div class="col-3">
         <img src="../assets/masks.png" class="maskPicR" />
-      </col-3>
+      </div>
     </div>
     <div class="row textRow">
       <div class="col-md-8 offset-md-2">

@@ -2,11 +2,7 @@
   <div class="dance container-fluid">
     <div class="row headerDance">
       <div class="col-md-3">
-        <img
-          src="https://redtricom.files.wordpress.com/2015/02/004-andrew-weeks_-youth-and-teen-2015.jpg?w=1024&h=682"
-          alt
-          class="danceImg1"
-        />
+        <img src="../assets/dancepicleft.jpg" alt class="danceImg1" />
       </div>
       <div class="col-md-5 titleText">
         <h1>
@@ -26,11 +22,7 @@
         </h1>
       </div>
       <div class="col-md-3">
-        <img
-          src="https://26qwi858rq21jpf4913ehms1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Kidsdancing_1400.jpg"
-          alt
-          class="danceImg2"
-        />
+        <img src="../assets/dancepicright.jpg" alt class="danceImg2" />
       </div>
     </div>
     <div class="row textRow">
