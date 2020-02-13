@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="row textRow">
-      <div class="col-md-8 offset-md-2">
+      <div class="col-md-7 offset-md-3">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus eum cum quaerat minus obcaecati mollitia eos nobis labore aliquam odit doloremque vero, tempora, repudiandae dolorem? Officiis error sint voluptatum fuga? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quis, rem laboriosam cumque quibusdam odio officia pariatur, iusto minus harum, facere asperiores molestiae. Expedita delectus cumque, pariatur eaque magni vitae!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, recusandae dolores ab iure consectetur sapiente repellat quia unde quaerat nemo consequuntur dolor molestiae soluta numquam cumque magnam tenetur necessitatibus praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sed, iusto aut ea eius magni minus voluptate maiores ipsam, suscipit ducimus ratione quasi incidunt, excepturi in facere voluptates obcaecati similique.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, recusandae dolores ab iure consectetur sapiente repellat quia unde quaerat nemo consequuntur dolor molestiae soluta numquam cumque magnam tenetur necessitatibus praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sed, iusto aut ea eius magni minus voluptate maiores ipsam, suscipit ducimus ratione quasi incidunt, excepturi in facere voluptates obcaecati similique.</p>
@@ -41,7 +41,7 @@ export default {
   background-image: url("../assets/scroll.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: 85% 100%;
 }
 
 .headerRow {
