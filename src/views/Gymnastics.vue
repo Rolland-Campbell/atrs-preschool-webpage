@@ -36,29 +36,5 @@ export default {
   color: white;
   text-shadow: 1px 1px black;
   font-size: 10vh;
-  position: relative;
-  top: 10vh;
-  left: 3vw;
-  /* transform: rotate(-40deg); */
-}
-
-span.moveY {
-  display: inline-block;
-  animation: wiggleDropRoll 1s infinite;
-}
-
-@keyframes wiggleDropRoll {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(10deg);
-  }
-  15% {
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: translateY(-5vh);
-  }
 }
 </style>
