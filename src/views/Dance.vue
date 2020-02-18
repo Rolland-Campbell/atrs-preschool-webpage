@@ -1,27 +1,25 @@
 <template>
   <div class="dance container-fluid">
     <div class="row headerDance">
-      <div class="col-md-3">
+      <div class="col-12 d-none col-md-3">
         <img src="../assets/dancepicleft.jpg" alt class="danceImg1" />
       </div>
-      <div class="col-md-5 titleText">
-        <h1>
+      <div class="col-12 col-md-5">
+        <h1 class="titleText">
           <span class="char1 hopleft">L</span>
           <span class="char2">E</span>
           <span class="char3">T</span>
           <span class="char4">'</span>
           <span class="char5">S</span>
-          &nbsp;
-          <span class="char6 hopup">D</span>
+          <span class="char6 hopup pl-4">D</span>
           <span class="char7">A</span>
           <span class="char8">N</span>
           <span class="char9">C</span>
           <span class="char10">E</span>
-          &nbsp;
           <span class="wiggle1">!!</span>
         </h1>
       </div>
-      <div class="col-md-3">
+      <div class="col-12 d-none col-md-3">
         <img src="../assets/dancepicright.jpg" alt class="danceImg2" />
       </div>
     </div>
@@ -86,6 +84,13 @@ span {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 600px) {
+  span {
+    font-size: 5vh;
+    font-weight: bold;
+  }
+}
+
 .danceImg2 {
   height: 100%;
   width: 100%;
@@ -139,10 +144,23 @@ span {
   text-shadow: 1px 1px black;
   padding-top: 5vh;
   display: flex;
+  justify-self: center;
+  align-items: baseline;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  width: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .titleText {
+  text-shadow: 1px 1px black;
+  padding-top: 5vh;
+  display: flex;
   justify-content: center;
   align-items: baseline;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: bold;
+  }
 }
 
 @keyframes wiggle1 {

@@ -3,8 +3,7 @@
     <div class="row">
       <div class="titleText">
         <p>
-          G
-          <span class="moveY">y</span>mnastics
+          Gymnastics
         </p>
       </div>
       <div class="col-12"></div>
